@@ -1,4 +1,4 @@
-# Country Flag API🇭🇺🇮🇹🇪🇸
+# Country Flag API
 
 <strong>
 This is a simple Express.js API that returns requested country flag URL.

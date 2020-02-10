@@ -4,8 +4,9 @@ const express = require('express');
 const port = process.env.PORT || 7000;
 const app = express();
 const server = http.createServer(app);
-const host = 'http://localhost:7000';
 const fs = require('fs');
+const dotenv = require('dotenv').config();
+const host = process.env.HOST;
 
 app.use(express.static(`${__dirname}/public`));
 

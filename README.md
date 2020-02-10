@@ -3,7 +3,7 @@
 <strong>
 This is a simple Express.js API that returns requested country flag URL.
 
-Try now: link
+Try now: https://country-flag-api.herokuapp.com
 </strong>
 
 Country name should be sent in ISO Alpha-2 format (like RU, EU, DE, FR etc.). You can check the full list in /public directory.
@@ -22,13 +22,13 @@ Here's an example of GET query request, that should be sent to http://HOST/getfl
 
 or
 
-    http://yourhost.com/getflag?type=flat&size=64&country=RU
+    https://country-flag-api.herokuapp.com/getflag?type=flat&size=64&country=RU
 
 
 If request was successful, API returns JSON with flag URL:
 
     {
-        "url": "http://yourhost.com/flags/flat/64/RU.png"
+        "url": "https://country-flag-api.herokuapp.com/flags/flat/64/RU.png"
     }
 
 Otherwise it will return Error 400.

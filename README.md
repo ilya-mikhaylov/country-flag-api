@@ -10,7 +10,7 @@ Country name should be sent in ISO Alpha-2 format (like RU, EU, DE, FR etc.). Yo
 
 There are different types and sizes of flags:
 
-imgs
+Flat or shiny, available sizes (px) - 16, 24, 32, 48, 64.
 
 Here's an example of GET query request, that should be sent to http://HOST/getflag
 

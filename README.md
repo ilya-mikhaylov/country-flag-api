@@ -1,4 +1,4 @@
-# 🇫🇷🇫 🇫🇮 Country Flag API🇭🇺🇮🇹🇪🇸
+# Country Flag API🇭🇺🇮🇹🇪🇸
 
 <strong>
 This is a simple Express.js API that returns requested country flag URL.
@@ -41,4 +41,4 @@ To use it locally, in root directory you should create .env file with hostname
 
 Flags were downloaded from gosquared.com under free license.
 
-From 🇷🇺 with ♥️
+<!-- From 🇷🇺 with ♥️ -->

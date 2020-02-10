@@ -1,0 +1,31 @@
+{
+  "name": "country-flag-api",
+  "version": "1.0.0",
+  "description": "Country flag API",
+  "main": "./server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilya-mikhaylov/country-flag-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilya-mikhaylov/country-flag-api/issues"
+  },
+  "homepage": "https://github.com/ilya-mikhaylov/country-flag-api#readme",
+  "dependencies": {
+    "app": "^0.1.0",
+    "express": "^4.17.1",
+    "hbs": "^4.0.6",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1"
+  }
+}

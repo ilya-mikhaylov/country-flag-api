@@ -1,4 +1,4 @@
-# 🇫🇮🇫🇷🇩🇪Country Flag API🇭🇺🇮🇹🇪🇸
+# $#1F1EE$#1F1F7 Country Flag API🇭🇺🇮🇹🇪🇸
 
 <strong>
 This is a simple Express.js API that returns requested country flag URL.
@@ -12,7 +12,7 @@ There are different types and sizes of flags:
 
 imgs
 
-Here's an example of GET request, that should be sent to http://HOST/getflag
+Here's an example of GET query request, that should be sent to http://HOST/getflag
 
     {
         country: RU,

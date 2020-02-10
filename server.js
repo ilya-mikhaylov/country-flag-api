@@ -11,11 +11,6 @@ const host = process.env.HOST;
 
 app.use(express.static(`${__dirname}/public`));
 
-app.get('/get', async (req, res) => {
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.json({});
-});
-
 app.get('/getflag', async (req, res) => {
   const { type, size, country } = req.query;
   const file = `/flags/${type}/${size}/${country}.png`;
